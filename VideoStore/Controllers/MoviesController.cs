@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Web.Mvc;
 using VideoStore.Models;
+using VideoStore.ViewModels;
 
 namespace VideoStore.Controllers
 {
@@ -13,8 +15,18 @@ namespace VideoStore.Controllers
             {
                 Name = "Shrek!"
             };
+            var customers = new List<Customer>
+            {
+                new Customer {Name = "Customer 1"},
+                new Customer {Name = "Customer 2"}
+            };
+            var viewmodel = new RandomMovieViewModel
+            {
+                Movie = movie, 
+                Customers = customers
+            };
 
-            return View(movie);
+            return View(viewmodel);
         }
 
         [Route("movies/released/{year}/{month:regex(\\d{4}):range(1, 12)}")]
