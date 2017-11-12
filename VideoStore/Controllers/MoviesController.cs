@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 using VideoStore.Models;
 
 namespace VideoStore.Controllers
@@ -12,7 +13,14 @@ namespace VideoStore.Controllers
             {
                 Name = "Shrek!"
             };
+
             return View(movie);
+        }
+
+        [Route("movies/released/{year}/{month:regex(\\d{4}):range(1, 12)}")]
+        public ActionResult ByReleaseDate(int year, int month)
+        {
+            return Content($"{year}/{month}");
         }
     }
 }
