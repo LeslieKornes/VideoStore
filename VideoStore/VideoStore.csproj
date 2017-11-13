@@ -231,6 +231,26 @@
     <Compile Include="Migrations\201711130441295_AddingDbSetForGenres.Designer.cs">
       <DependentUpon>201711130441295_AddingDbSetForGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711130455284_GonnaPopulateTheseGenres.cs" />
+    <Compile Include="Migrations\201711130455284_GonnaPopulateTheseGenres.Designer.cs">
+      <DependentUpon>201711130455284_GonnaPopulateTheseGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130500537_modifiedGenreIdPropertyToByte.cs" />
+    <Compile Include="Migrations\201711130500537_modifiedGenreIdPropertyToByte.Designer.cs">
+      <DependentUpon>201711130500537_modifiedGenreIdPropertyToByte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130501190_GonnaPopulateTheseGenresFORREALTHOUGH.cs" />
+    <Compile Include="Migrations\201711130501190_GonnaPopulateTheseGenresFORREALTHOUGH.Designer.cs">
+      <DependentUpon>201711130501190_GonnaPopulateTheseGenresFORREALTHOUGH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130503422_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIME.cs" />
+    <Compile Include="Migrations\201711130503422_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIME.Designer.cs">
+      <DependentUpon>201711130503422_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130504428_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIMETHIIIIIIIS.cs" />
+    <Compile Include="Migrations\201711130504428_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIMETHIIIIIIIS.Designer.cs">
+      <DependentUpon>201711130504428_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIMETHIIIIIIIS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -304,6 +324,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -358,6 +379,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711130441295_AddingDbSetForGenres.resx">
       <DependentUpon>201711130441295_AddingDbSetForGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130455284_GonnaPopulateTheseGenres.resx">
+      <DependentUpon>201711130455284_GonnaPopulateTheseGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130500537_modifiedGenreIdPropertyToByte.resx">
+      <DependentUpon>201711130500537_modifiedGenreIdPropertyToByte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130501190_GonnaPopulateTheseGenresFORREALTHOUGH.resx">
+      <DependentUpon>201711130501190_GonnaPopulateTheseGenresFORREALTHOUGH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130503422_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIME.resx">
+      <DependentUpon>201711130503422_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130504428_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIMETHIIIIIIIS.resx">
+      <DependentUpon>201711130504428_GonnaPopulateTheseGenresFORREALTHOUGHTHISTIMEISTHETIMETHIIIIIIIS.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
