@@ -1,0 +1,19 @@
+﻿@model IEnumerable<VideoStore.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+@if (!Model.Any())
+{
+    <p>Sorry, we do not have any customers</p>
+}
+else
+{
+  foreach (var customer in Model)
+   {
+        <p>@Html.ActionLink(customer.Name, "Details", new {customer})</p>
+   }
+}
