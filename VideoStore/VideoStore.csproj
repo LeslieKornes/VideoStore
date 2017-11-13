@@ -203,9 +203,38 @@
     <Compile Include="Migrations\201711130349097_AddTheNamesToMembershipType.Designer.cs">
       <DependentUpon>201711130349097_AddTheNamesToMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711130358237_AddedNamePropertyToMembershipTypeClass.cs" />
+    <Compile Include="Migrations\201711130358237_AddedNamePropertyToMembershipTypeClass.Designer.cs">
+      <DependentUpon>201711130358237_AddedNamePropertyToMembershipTypeClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130402123_AddedBirthdatePropertyToCustomerClass.cs" />
+    <Compile Include="Migrations\201711130402123_AddedBirthdatePropertyToCustomerClass.Designer.cs">
+      <DependentUpon>201711130402123_AddedBirthdatePropertyToCustomerClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130416451_AddedBirthdatePropertyToCustomerClass1.cs" />
+    <Compile Include="Migrations\201711130416451_AddedBirthdatePropertyToCustomerClass1.Designer.cs">
+      <DependentUpon>201711130416451_AddedBirthdatePropertyToCustomerClass1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130432470_AddingDbSetForMovies.cs" />
+    <Compile Include="Migrations\201711130432470_AddingDbSetForMovies.Designer.cs">
+      <DependentUpon>201711130432470_AddingDbSetForMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130436398_AddedGenreClass.cs" />
+    <Compile Include="Migrations\201711130436398_AddedGenreClass.Designer.cs">
+      <DependentUpon>201711130436398_AddedGenreClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130438588_ModifiedMovieClassProperties.cs" />
+    <Compile Include="Migrations\201711130438588_ModifiedMovieClassProperties.Designer.cs">
+      <DependentUpon>201711130438588_ModifiedMovieClassProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130441295_AddingDbSetForGenres.cs" />
+    <Compile Include="Migrations\201711130441295_AddingDbSetForGenres.Designer.cs">
+      <DependentUpon>201711130441295_AddingDbSetForGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -308,6 +337,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711130349097_AddTheNamesToMembershipType.resx">
       <DependentUpon>201711130349097_AddTheNamesToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130358237_AddedNamePropertyToMembershipTypeClass.resx">
+      <DependentUpon>201711130358237_AddedNamePropertyToMembershipTypeClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130402123_AddedBirthdatePropertyToCustomerClass.resx">
+      <DependentUpon>201711130402123_AddedBirthdatePropertyToCustomerClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130416451_AddedBirthdatePropertyToCustomerClass1.resx">
+      <DependentUpon>201711130416451_AddedBirthdatePropertyToCustomerClass1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130432470_AddingDbSetForMovies.resx">
+      <DependentUpon>201711130432470_AddingDbSetForMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130436398_AddedGenreClass.resx">
+      <DependentUpon>201711130436398_AddedGenreClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130438588_ModifiedMovieClassProperties.resx">
+      <DependentUpon>201711130438588_ModifiedMovieClassProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130441295_AddingDbSetForGenres.resx">
+      <DependentUpon>201711130441295_AddingDbSetForGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
