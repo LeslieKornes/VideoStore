@@ -10,6 +10,7 @@ namespace VideoStore.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public Genre Genre { get; set; }
         public int GenreId { get; set; }
         [Required]
         public DateTime DateAdded { get; set; }
