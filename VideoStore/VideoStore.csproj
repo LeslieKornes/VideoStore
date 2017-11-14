@@ -255,6 +255,30 @@
     <Compile Include="Migrations\201711130521259_HadForgottenToAddGenrePropToMovie.Designer.cs">
       <DependentUpon>201711130521259_HadForgottenToAddGenrePropToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711130536331_needToFixDBIssue.cs" />
+    <Compile Include="Migrations\201711130536331_needToFixDBIssue.Designer.cs">
+      <DependentUpon>201711130536331_needToFixDBIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711130540497_needToFixDBIssueSEcondTry.cs" />
+    <Compile Include="Migrations\201711130540497_needToFixDBIssueSEcondTry.Designer.cs">
+      <DependentUpon>201711130540497_needToFixDBIssueSEcondTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711140257234_deletedMoviesInHopesOfRebuilding.cs" />
+    <Compile Include="Migrations\201711140257234_deletedMoviesInHopesOfRebuilding.Designer.cs">
+      <DependentUpon>201711140257234_deletedMoviesInHopesOfRebuilding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711140305316_readdedProperMovieClass.cs" />
+    <Compile Include="Migrations\201711140305316_readdedProperMovieClass.Designer.cs">
+      <DependentUpon>201711140305316_readdedProperMovieClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711140306125_readdedProperMovieDbSet.cs" />
+    <Compile Include="Migrations\201711140306125_readdedProperMovieDbSet.Designer.cs">
+      <DependentUpon>201711140306125_readdedProperMovieDbSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711140308157_IDKIfThisIsANecessaryMigrashe.cs" />
+    <Compile Include="Migrations\201711140308157_IDKIfThisIsANecessaryMigrashe.Designer.cs">
+      <DependentUpon>201711140308157_IDKIfThisIsANecessaryMigrashe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -401,6 +425,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711130521259_HadForgottenToAddGenrePropToMovie.resx">
       <DependentUpon>201711130521259_HadForgottenToAddGenrePropToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130536331_needToFixDBIssue.resx">
+      <DependentUpon>201711130536331_needToFixDBIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711130540497_needToFixDBIssueSEcondTry.resx">
+      <DependentUpon>201711130540497_needToFixDBIssueSEcondTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711140257234_deletedMoviesInHopesOfRebuilding.resx">
+      <DependentUpon>201711140257234_deletedMoviesInHopesOfRebuilding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711140305316_readdedProperMovieClass.resx">
+      <DependentUpon>201711140305316_readdedProperMovieClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711140306125_readdedProperMovieDbSet.resx">
+      <DependentUpon>201711140306125_readdedProperMovieDbSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711140308157_IDKIfThisIsANecessaryMigrashe.resx">
+      <DependentUpon>201711140308157_IDKIfThisIsANecessaryMigrashe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
